@@ -33,7 +33,7 @@ const Contact = () => {
                         <p className='font-sarif font-bold text-[2.4vw] text-yellow-200'>History</p>
                         <h1 className='font-serif lg:text-6xl text-[4.5vw] lg:mb-3 mb-0'>ESTABLISHED IN 1918</h1>
                         <hr className='w-40 border-b-2 lg:mb-3 mb-0 border-yellow-200' />
-                        <p className='lg:text-l md:text-[2.2vw] text-[3vw]'>Established in 1918, our jewelry shop weaves a narrative of timeless sophistication. With a century-long legacy, we blend tradition and contemporary elegance, offering unique pieces that reflect artistry and enduring beauty. Explore our collection, where each creation is a testament to our commitment to craftsmanship, heritage, and the celebration of refined style.</p>
+                        <p className='lg:text-l md:text-[2.2vw] text-[3vw]' style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)' }}>Established in 1918, our jewelry shop weaves a narrative of timeless sophistication. With a century-long legacy, we blend tradition and contemporary elegance, offering unique pieces that reflect artistry and enduring beauty. Explore our collection, where each creation is a testament to our commitment to craftsmanship, heritage, and the celebration of refined style.</p>
                     </div>
                 </div>
 

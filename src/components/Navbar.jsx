@@ -57,7 +57,7 @@ const Navbar = () => {
                     className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-gray-800 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'
                         } md:translate-x-0 md:flex md:items-center`}
                 >
-                    <div className="flex flex-col md:flex-row md:mx-6 md:gap-y-0 gap-y-3 dark:text-white gap-x-6">
+                    <div className="flex flex-col md:flex-row md:mx-6 md:gap-y-0 gap-y-3 text-white gap-x-6">
                         <NavLink to="/" className="hover:text-yellow-300" >Home</NavLink>
                         <NavLink to="/about" className="hover:text-yellow-300" >About Us</NavLink>
                         <NavLink to="/store" className="hover:text-yellow-300" >Store</NavLink>
